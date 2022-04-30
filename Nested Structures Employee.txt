@@ -1,0 +1,25 @@
+struct address
+{
+    int doorno;
+    char street[10];
+    char city[20];
+    long int pin;
+}a;
+struct employee
+{
+    int ssn;
+    char name[20];
+    float sal;
+    struct address a;
+}e;
+#include<stdio.h>
+int main()
+{
+printf("enter ssn,name,sal");
+scanf("%d%s%f",&e.ssn,e.name,&e.sal);
+printf("enter address");
+scanf("%d%s%s%ld",&e.a.doorno,e.a.street,e.a.city,&e.a.pin);
+printf("%d%s%s%ld",&e.a.doorno,e.a.street,e.a.city,&e.a.pin");
+printf("%d",size of (e));
+printf("%d",size of (a));
+}
